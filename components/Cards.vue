@@ -34,7 +34,7 @@
 </script>
 
 <template>
-  <div class="container" :style="isDarkMode ? {backgroundColor: 'rgb(73, 72, 72)'} : null">
+  <div :class="['container',(isDarkMode ? {backgroundColor: 'rgb(73, 72, 72)'} : null)]">
     <div class="content-container">
       <h3 :style="isDarkMode ? {color: 'white'} : null">Reading List</h3>
       <div class="cards-container">
